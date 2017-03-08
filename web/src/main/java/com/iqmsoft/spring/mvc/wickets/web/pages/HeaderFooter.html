@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta name="menu" content="Home" />
+<meta name="bodyClass" content="home" />
+<title wicket:id="pageTitle"></title>
+</head>
+<body>
+	<div wicket:id="navbar"></div>
+
+
+	<div class="container">
+		<div class="panel panel-primary">
+			<div class="panel-body">
+
+				<div id="content" class="offset0">
+
+					<h2 class="text-success" wicket:id="pageHeading"></h2>
+					<p  class="text-danger" wicket:id="pageMessage"></p>
+
+					<wicket:child />
+
+					<div wicket:id="feedback"></div>
+
+					<div class="separator"></div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
